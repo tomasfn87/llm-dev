@@ -1,4 +1,4 @@
-import isValidEmailPhoneOSocialMediaURL from './isValidEmailPhoneOrSocialMediaUrl.js'; 
+import isValidEmailPhoneOrSocialMediaUrl from './isValidEmailPhoneOrSocialMediaUrl.js'; 
 import { color } from './utils/color.js'; 
 
 const main = () => {
@@ -15,11 +15,11 @@ const main = () => {
         "https://notasocialmedia.com/user",
         "test"
     ].forEach(e => {
-        isValidEmailPhoneOSocialMediaURL(e)
+        isValidEmailPhoneOrSocialMediaUrl(e)
             ? color.log('green', ' Ok ')
             : color.log('red', 'Fail');
         color.log('dim', " - ");
-        isValidEmailPhoneOSocialMediaURL(e)
+        isValidEmailPhoneOrSocialMediaUrl(e)
             ? process.stdout.write(e)
             : color.log('brightMagenta', e);
         console.log();
