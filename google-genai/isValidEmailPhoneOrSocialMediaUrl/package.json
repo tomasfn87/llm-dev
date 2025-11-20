@@ -1,0 +1,12 @@
+{
+  "name": "is-valid-email-phone-or-social-media-url",
+  "version": "0.0.1",
+  "description": "This funciton validates if a string is an e-mail, telephone number or social media URL.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "tomas.nalle@alumni.usp.br",
+  "license": "ISC"
+}
