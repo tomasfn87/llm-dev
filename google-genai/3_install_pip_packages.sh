@@ -1,4 +1,0 @@
-#!/bin/bash
-pip install -q -U google-genai
-pip install python-dotenv
-pip install Pillow

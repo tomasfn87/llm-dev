@@ -30,12 +30,16 @@ git clone \
 
 ## Setup
 
-- Copy file `env_template` and rename it to `.env`:
+- Rename file `env_template` to `.env`:
   - Insert your [API key from Google AI Studio](https://aistudio.google.com/api-keys).
-- Run the `.sh` files in order to:
+- Source `setup.sh` in order to:
   - 1) Create a virtual environment;
   - 2) Start the virtual environment;
-  - 3) Install Python dependencies.
+  - 3) Install Python dependencies with `pip`.
+
+```shell
+source ./setup.sh
+```
 
 ---
 
@@ -44,7 +48,7 @@ git clone \
 - From the source folder, run:
 
 ```shell
-./4_ask_gemini_to_generate_code.sh \
+./generate_code_and_save_to_file.sh \
   "$(cat ./isValidEmailPhoneOrSocialMediaUrl/prompt.md)" \
   ./isValidEmailPhoneOrSocialMediaUrl/isValidEmailPhoneOrSocialMediaUrl.js
 ```

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 PROMPT="$1";
 OUTPUT_FILE="$2";
 
