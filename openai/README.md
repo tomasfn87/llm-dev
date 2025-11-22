@@ -6,8 +6,8 @@
 
 ## Description
 
-- How to prompt [`Google Gemini`](https://gemini.google.com) to generate out-of-the-box functional code using a [`Google AI Studio API key`](https://aistudio.google.com/api-keys);
-- The folder `isValidEmailPhoneOrSocialMediaUrl` is an usage of the main **Python code**, a simple template to generate a **JavaScript function**, save it to a file and check if it works with some kind of test or validation script.
+- How to prompt [`ChatGPT`](https://chat.openai.com) to generate out-of-the-box functional code using a [`Open Router API key`](https://openrouter.ai/settings/keys);
+- The folder `isValidEmailPhoneOrSocialMediaUrl` used as example beliw is just a way of testing the main **Python code**, a simple template to generate a **JavaScript function**, save it to a file and check if it works with some kind of test or validation script.
 
 ---
 
@@ -16,12 +16,12 @@
 ```shell
 git clone \
   --depth 1 \
-  --no-checkout https://github.com/tomasfn87/llm-dev ./google-genai \
+  --no-checkout https://github.com/tomasfn87/llm-dev ./openai \
   && cd google-genai \
-  && git sparse-checkout set google-genai \
+  && git sparse-checkout set openai \
   && git checkout \
-  && mv google-genai/* . \
-  && rm -rf {google-genai,.git}
+  && mv openai/* . \
+  && rm -rf {openai,.git}
 ```
 
 - This command will download only this folder from [`llm-dev`](https://github.com/tomasfn87/llm-dev)
@@ -31,7 +31,7 @@ git clone \
 ## Setup
 
 - Rename file `env_template` to `.env`:
-  - Insert your [API key from Google AI Studio](https://aistudio.google.com/api-keys).
+  - Insert your [API key from Open Router](https://openrouter.ai/settings/keys).
 - Source `setup.sh` in order to:
   - 1) Create a virtual environment;
   - 2) Start the virtual environment;

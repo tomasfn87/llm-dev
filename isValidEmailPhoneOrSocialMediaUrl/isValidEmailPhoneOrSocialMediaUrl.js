@@ -1,0 +1,1 @@
+export default function isValidEmailPhoneOrSocialMediaUrl(str){var emailRegex=/^mailto:[^\s@]+@[^\s@]+\.[^\s@]+$/i;var phoneRegex=/^tel:\+?[0-9]{7,15}$/i;var socialRegex=/^(?:https?:\/\/)?(?:www\.)?(?:api\.whatsapp\.com|wa\.me|(?:facebook|twitter|instagram|linkedin|youtube|telegram)\.com)(?:\/.*)?$/i;return emailRegex.test(str)||phoneRegex.test(str)||socialRegex.test(str);}
