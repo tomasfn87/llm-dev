@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "1. Removing venv folder...";
-rm --recursive --force venv;
+rm -rf venv;
 
 echo "2. Creating venv folder...";
 python3 -m venv venv;
