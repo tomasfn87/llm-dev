@@ -1,2 +1,5 @@
 # Output directory
 output
+
+# VSCode settings
+*.vscode
