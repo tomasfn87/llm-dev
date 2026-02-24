@@ -48,7 +48,7 @@ source ./setup.sh
 - From the source folder, run:
 
 ```shell
-./generate_code_and_save_to_file.sh \
+./generate_gpt_code_and_save_to_file.sh \
   "$(cat ../isValidEmailPhoneOrSocialMediaUrl/prompt.md)" \
   ../isValidEmailPhoneOrSocialMediaUrl/isValidEmailPhoneOrSocialMediaUrl.js
 ```
