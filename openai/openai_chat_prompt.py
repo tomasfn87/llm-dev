@@ -3,7 +3,6 @@ from openai import OpenAI
 from os import environ as env
 from sys import argv
 
-
 load_dotenv()
 
 def main():
