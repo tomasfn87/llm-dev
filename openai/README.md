@@ -1,4 +1,4 @@
-# google-genai
+# openai
 
 <br>
 
@@ -17,7 +17,7 @@
 git clone \
   --depth 1 \
   --no-checkout https://github.com/tomasfn87/llm-dev ./openai \
-  && cd google-genai \
+  && cd openai \
   && git sparse-checkout set openai \
   && git checkout \
   && mv openai/* . \
